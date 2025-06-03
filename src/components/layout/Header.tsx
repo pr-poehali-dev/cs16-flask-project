@@ -51,6 +51,18 @@ const Header = () => {
             >
               Кейсы
             </Link>
+            <Link
+              to="/forum"
+              className="text-slate-300 hover:text-orange-400 transition-colors"
+            >
+              Форум
+            </Link>
+            <Link
+              to="/chat"
+              className="text-slate-300 hover:text-orange-400 transition-colors"
+            >
+              Чат
+            </Link>
           </nav>
 
           {/* User Actions */}
